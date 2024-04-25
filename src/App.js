@@ -3,6 +3,7 @@ import Banner from './components/Banner';
 import Nav from "./components/Nav";
 import requests from "./api/requests";
 import Row from "./components/Row";
+import Footer from './components/Footer';
 
 function App() {
   return <div className="App">
@@ -35,6 +36,7 @@ function App() {
       id="CM"
       fetchUrl={requests.fetchComendyMovies}
     />
+    <Footer />
   </div>;
 };
 
